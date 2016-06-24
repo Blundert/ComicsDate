@@ -1,0 +1,12 @@
+{
+  "generator-ng-fullstack": {
+    "username": "Blundert",
+    "appName": "ComicsDates",
+    "stack": "fullstack",
+    "server": "node",
+    "client": "ng1",
+    "transpilerServer": "node",
+    "secure": true,
+    "differentStaticServer": false
+  }
+}
