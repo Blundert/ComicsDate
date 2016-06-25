@@ -11,6 +11,11 @@
             controller: 'TodoController',
             controllerAs: 'todoCtrl'
           })
+          .when('/login', {
+            templateUrl: 'login/templates/login.html',
+            controller: 'LoginController',
+            controllerAs: 'loginCtrl'
+          })
           .otherwise({
             redirectTo: '/'
           });

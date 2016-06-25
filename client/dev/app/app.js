@@ -4,6 +4,7 @@
   ng.module('ComicsDates', [
       'ngResource',
       'ngRoute',
-      'ngMessages'
+      'ngMessages',
+      'firebase'
     ]);
 }(window.angular));

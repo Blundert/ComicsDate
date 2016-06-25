@@ -4,6 +4,8 @@
   "main": "src/ComicsDates.js",
   "scripts": {
 
+    "postinstall": "bower install",
+
     "start": "node index",
     "watch": "gulp",
 
@@ -26,7 +28,8 @@
     "morgan": "^1.5.2",
     "newrelic": "^1.18.2",
     "helmet": "^0.7.1",
-    "x-ray": ">2.0.3"
+    "x-ray": ">2.0.3",
+    "firebase": "3.0.5"
   },
   "devDependencies": {
     "karma-ng-html2js-preprocessor": "^0.1.2",
